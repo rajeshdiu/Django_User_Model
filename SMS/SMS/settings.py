@@ -94,3 +94,14 @@ STATICFILES_DIRS = [
 ]
 
 AUTH_USER_MODEL= "myApp.customUser"
+
+
+EMAIL_HOST = "smtp.gmail.com"
+EMAIL_PORT = 587
+EMAIL_HOST_USER = "lecturer2.wadp.nsda@dipti.com.bd"
+EMAIL_HOST_PASSWORD = "Bangladesh1212"
+EMAIL_USE_TLS = True
+# EMAIL_USE_SSL
+# EMAIL_TIMEOUT
+# EMAIL_SSL_KEYFILE
+# EMAIL_SSL_CERTFILE
